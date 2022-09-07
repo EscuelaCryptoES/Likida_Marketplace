@@ -1,0 +1,39 @@
+{
+  "name": "likidamarketplace",
+  "version": "1.0.0",
+  "description": "Likida Marketplace Smart Contracts Repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Likida/Marketplace_SmartContracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "marketplace",
+    "likida",
+    "nft",
+    "erc721",
+    "erc1155"
+  ],
+  "author": "EscuelaCryptoES",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Likida/Marketplace_SmartContracts/issues"
+  },
+  "homepage": "https://github.com/Likida/Marketplace_SmartContracts#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts-upgradeable": "^4.5.2",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.9.1",
+    "hardhat-gas-reporter": "^1.0.8",
+    "mocha": "^9.2.2",
+    "solidity-coverage": "^0.7.20"
+  }
+}
